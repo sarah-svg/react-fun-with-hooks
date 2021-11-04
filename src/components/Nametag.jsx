@@ -9,7 +9,8 @@ function Nametag() {
   const [color, setColor] = React.useState('blue');
  
   return (
-    <div className={styles.Main} style={{ background:color }}>
+    <div data-testid="color"
+      className={styles.Main} style={{ background: color }}>
       <div >
         <div className={styles.Greeting}>
              Hello My Name is: 
