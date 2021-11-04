@@ -18,7 +18,8 @@ function Nametag() {
           {name}
         </div> 
         <div className={styles.Change}>
-          <input type="name" onChange={e => setName(e.target.value)} /> 
+          <input placeholder="Enter your name"
+            type="name" onChange={e => setName(e.target.value)} />
           <input type="color" onChange={e => setColor(e.target.value)} />
         
         </div>

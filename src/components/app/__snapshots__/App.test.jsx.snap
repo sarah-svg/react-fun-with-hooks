@@ -21,6 +21,7 @@ exports[`App component renders App 1`] = `
         class="Change"
       >
         <input
+          placeholder="Enter your name"
           type="name"
         />
         <input
