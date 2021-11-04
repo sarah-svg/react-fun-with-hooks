@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <div
+    class="Main"
+    style="background: blue;"
+  >
+    <div>
+      <div
+        class="Greeting"
+      >
+        Hello My Name is:
+      </div>
+      <div
+        class="Name"
+      >
+        SARAH SKILLEN
+      </div>
+      <div
+        class="Change"
+      >
+        <input
+          type="name"
+        />
+        <input
+          type="color"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
