@@ -1,6 +1,9 @@
 import React from 'react';
 import { render, cleanup, screen, waitFor } from '@testing-library/react';
 import user from '@testing-library/user-event';
+
+
+
 import Nametag from './Nametag';
 
 describe('App component', () => {
